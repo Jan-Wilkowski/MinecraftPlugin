@@ -1,0 +1,9 @@
+name: plugin_0
+main: com.jano.plugin.Main
+version: 0.0.1
+api-version: "1.19"
+commands:
+  jakiBlok:
+    usage: "/jakiblok"
+    description: wypisuje blok na ktorym stoisz
+    aliases: ["whatblock"]
