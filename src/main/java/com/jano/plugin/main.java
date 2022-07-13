@@ -1,15 +1,18 @@
 package com.jano.plugin;
 
+import com.jano.plugin.listeners.CustomJoinMessageListener;
+import com.jano.plugin.listeners.XPBottleBreakListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin {
+public class main extends JavaPlugin {
 
 
 
     @Override
     public void onEnable() {
         Bukkit.getServer().getPluginManager().registerEvents(new CustomJoinMessageListener(), this);
+        getServer().getPluginManager().registerEvents(new XPBottleBreakListener(), this);
         getCommand("jakiBlok").setExecutor(new WhatBlockCommandExecutor());
         getLogger().info("plugin dziala");
         System.out.println("sout: plugin działa");

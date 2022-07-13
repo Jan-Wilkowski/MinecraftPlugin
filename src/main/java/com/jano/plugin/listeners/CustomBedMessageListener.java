@@ -1,4 +1,4 @@
-package com.jano.plugin;
+package com.jano.plugin.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -10,6 +10,7 @@ public class CustomBedMessageListener implements Listener {
     @EventHandler
     public void onLeaveBed(PlayerBedLeaveEvent event){
         Player player = event.getPlayer();
-        player.sendMessage("a new dawn");
+        player.setHealth(1);
+        player.sendMessage("new dawn welcome :)))");
     }
 }

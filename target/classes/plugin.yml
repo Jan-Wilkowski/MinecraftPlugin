@@ -1,5 +1,5 @@
 name: plugin_0
-main: com.jano.plugin.Main
+main: com.jano.plugin.main
 version: 0.0.1
 api-version: "1.19"
 commands:
