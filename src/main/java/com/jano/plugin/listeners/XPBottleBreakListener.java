@@ -10,7 +10,9 @@ public class XPBottleBreakListener implements Listener {
     @EventHandler
     public void onXPBottleBreak(ExpBottleEvent e){
 
-        Block block = e.getHitBlock();
-        block.breakNaturally();
+//        Block block = e.getHitBlock();
+//        block.breakNaturally();
+
+        e.setShowEffect(false);
     }
 }

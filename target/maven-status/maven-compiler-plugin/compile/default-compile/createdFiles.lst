@@ -1,3 +1,9 @@
-com\jano\plugin\WhatBlockCommandExecutor.class
-com\jano\plugin\Main.class
-com\jano\plugin\CustomJoinMessageListener.class
+com\jano\plugin\listeners\XPBottleBreakListener.class
+com\jano\plugin\commands\StealthModeCommandExecutor.class
+com\jano\plugin\listeners\CustomJoinMessageListener.class
+com\jano\plugin\commands\FeedCommand.class
+com\jano\plugin\main.class
+com\jano\plugin\listeners\PlayerMoveListener.class
+com\jano\plugin\commands\WhatBlockCommandExecutor.class
+com\jano\plugin\listeners\CustomBedMessageListener.class
+com\jano\plugin\listeners\ShearSheepListener.class

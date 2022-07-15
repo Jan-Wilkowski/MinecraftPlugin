@@ -7,3 +7,18 @@ commands:
     usage: "/jakiblok"
     description: wypisuje blok na ktorym stoisz
     aliases: ["whatblock"]
+  stealth:
+    usage: "/stealth"
+    description: enter sneak mode for 30 seconds
+    aliases: ["sneak"]
+  feed:
+    usage: "/feed"
+    description: set food bar to max
+  printMessageFromConfig:
+    description: writes food which you can change in config file
+  setFood:
+    description: or you can set food here
+  explode:
+    description: explosion!
+  repeat:
+    description: Repeat stuff back to you

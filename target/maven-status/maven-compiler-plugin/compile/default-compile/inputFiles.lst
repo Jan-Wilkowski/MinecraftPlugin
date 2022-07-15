@@ -1,3 +1,10 @@
-D:\MinecraftPlugin1\src\main\java\com\jano\plugin\WhatBlockCommandExecutor.java
-D:\MinecraftPlugin1\src\main\java\com\jano\plugin\Main.java
-D:\MinecraftPlugin1\src\main\java\com\jano\plugin\CustomJoinMessageListener.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\commands\WhatBlockCommandExecutor.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\main.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\listeners\ShearSheepListener.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\listeners\XPBottleBreakListener.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\commands\FeedCommand.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\listeners\CustomJoinMessageListener.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\Configuration.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\commands\StealthModeCommandExecutor.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\listeners\CustomBedMessageListener.java
+D:\MinecraftPlugin1\src\main\java\com\jano\plugin\listeners\PlayerMoveListener.java

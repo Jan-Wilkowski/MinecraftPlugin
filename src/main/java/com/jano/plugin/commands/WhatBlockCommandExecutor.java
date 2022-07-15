@@ -1,4 +1,4 @@
-package com.jano.plugin;
+package com.jano.plugin.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
