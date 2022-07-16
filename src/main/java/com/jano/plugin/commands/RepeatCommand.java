@@ -22,9 +22,19 @@ public class RepeatCommand implements CommandExecutor {
             if (args.length == 0){
                 p.sendMessage("you did not provide any arguments when running the command. try again.");
                 p.sendMessage("Example: /repeat <message here>");
-            }else {
+            }else if (args.length == 1){
                 String word = args[0];
                 p.sendMessage("Message: " + word );
+            }else {
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < args.length; i++) {
+                    builder.append(args[i]);
+                    builder.append(" ");
+                }
+                String finalMessage = builder.toString();
+                finalMessage = finalMessage.stripTrailing();    //kompresuje niepotrzebne spacje po wyrazie " hello  " -> " hello"
+
+                p.sendMessage("here is a big boi message: " + finalMessage);
             }
         }
         return false;

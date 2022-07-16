@@ -1,4 +1,4 @@
-package com.jano.plugin.commands;
+package com.jano.plugin.listeners;
 
 import com.jano.plugin.main;
 import org.bukkit.event.EventHandler;

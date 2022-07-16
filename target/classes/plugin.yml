@@ -16,4 +16,15 @@ commands:
     description: set food bar to max
   printMessageFromConfig:
     description: writes food which you can change in config file
-
+  setFood:
+    description: or you can set food here
+  explode:
+    description: explosion!
+  repeat:
+    description: Repeat stuff back to you
+  spell:
+    description: cast a negative spell
+  setspawn:
+    description: ustaw gdzie sie respisz
+  spawn:
+    description: tp to spawnpoint

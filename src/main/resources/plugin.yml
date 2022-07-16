@@ -22,3 +22,9 @@ commands:
     description: explosion!
   repeat:
     description: Repeat stuff back to you
+  spell:
+    description: cast a negative spell
+  setspawn:
+    description: ustaw gdzie sie respisz
+  spawn:
+    description: tp to spawnpoint
