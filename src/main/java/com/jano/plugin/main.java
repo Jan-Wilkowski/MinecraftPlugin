@@ -29,6 +29,7 @@ public class main extends JavaPlugin {
         getCommand("spell").setExecutor(new SpellCommand());
         getCommand("setspawn").setExecutor(new SetSpawnCommand(this));
         getCommand("spawn").setExecutor(new SpawnCommand(this));
+        getCommand("menu").setExecutor(new MenuCommand());
 
         getLogger().info("plugin dziala");
         System.out.println("sout: plugin działa");

@@ -11,7 +11,9 @@ com\jano\plugin\commands\WhatBlockCommandExecutor.class
 com\jano\plugin\commands\ExplodeCommand.class
 com\jano\plugin\listeners\CustomBedMessageListener.class
 com\jano\plugin\listeners\CustomJoinMessageListener.class
+com\jano\plugin\commands\MenuCommand.class
 com\jano\plugin\listeners\PlayerMoveListener.class
 com\jano\plugin\listeners\DeathListener.class
 com\jano\plugin\listeners\SpawnListeners.class
+com\jano\plugin\listeners\MenuListener.class
 com\jano\plugin\listeners\ShearSheepListener.class
