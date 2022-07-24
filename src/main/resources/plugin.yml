@@ -30,3 +30,7 @@ commands:
     description: tp to spawnpoint
   menu:
     description: opens menu
+  fly:
+    description: lets you fly
+  givebow:
+    description: gives you a teleportation bow

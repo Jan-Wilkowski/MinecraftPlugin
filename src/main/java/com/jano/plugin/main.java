@@ -21,7 +21,9 @@ public class main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
         getServer().getPluginManager().registerEvents(new DeathListener(),this);
         getServer().getPluginManager().registerEvents(new SpawnListeners(this),this);
+        getServer().getPluginManager().registerEvents(new TPBowListener(),this);
 
+        getCommand("fly").setExecutor(new FlyCommand());
         getCommand("jakiBlok").setExecutor(new WhatBlockCommandExecutor());
         getCommand("stealth").setExecutor(new StealthModeCommandExecutor());
         getCommand("feed").setExecutor(new FeedCommand());
@@ -30,6 +32,7 @@ public class main extends JavaPlugin {
         getCommand("setspawn").setExecutor(new SetSpawnCommand(this));
         getCommand("spawn").setExecutor(new SpawnCommand(this));
         getCommand("menu").setExecutor(new MenuCommand());
+        getCommand("givebow").setExecutor(new GiveTPBowCommand());
 
         getLogger().info("plugin dziala");
         System.out.println("sout: plugin działa");
